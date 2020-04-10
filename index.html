@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,700,700i,800,900&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     
     <link rel="stylesheet" href="style/style.css">
     <title>Project</title>
@@ -1042,9 +1045,12 @@
                 <form class="siteForm__form" action="#" method="GET">
                     <div class="siteForm__formMain">
                         <div class="siteForm__formLeft">
-                            <input type="text" name="Name" class="siteForm__formItem siteForm__formMargin" placeholder="Name" style="border-radius: 6px">
+                            <input type="text" name="Name" class="siteForm__formItem siteForm__formMargin" placeholder="Name" style="border-radius: 6px" required>
                             <input type="tel" name="Phone" class="siteForm__formItem siteForm__formMargin" placeholder="Phone">
-                            <input name="Date" id="datepicker" placeholder="Date">
+                            <div class="siteForm__dateInput">
+                                <input name="Date" id="datepicker" placeholder="Date" autocomplete="off">
+                                <i class="far fa-calendar-alt"></i>
+                            </div>
                        </div>
     
                        <div class="siteForm__formRight form__margin">
@@ -1709,6 +1715,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js" integrity="sha256-yE5LLp5HSQ/z+hJeCqkz9hdjNkk1jaiGG0tDCraumnA=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3395c4fa95.js" crossorigin="anonymous"></script>
     <script src="./script/slick.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <script src="./script/script.js"></script>
 
