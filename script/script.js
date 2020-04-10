@@ -7,12 +7,12 @@ $(document).ready(function(){
         autoplaySpeed: 2000
     });
 
-    $('#datepicker').datepicker();
-
     $(document).ready(function(){
         $('input.timepicker').timepicker({});
     });
 
     $('input[type="tel"]').mask('+0 (000) 00 00 000');
+
+    $('#datepicker').datepicker();
 });
 

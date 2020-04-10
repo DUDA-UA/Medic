@@ -470,7 +470,9 @@ button:focus {
 .img__search{
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
+
 .header__searchText{
     border: none;
     outline: none;
@@ -1611,6 +1613,7 @@ li.slick-active #slick-slide-control00, li.slick-active #slick-slide-control01, 
     font-size: 20px;
     font-weight: bold;
     color: #34b6b6;
+    margin: 0;
 }
 
 .slider__text{
@@ -2190,6 +2193,9 @@ b{
     border: 1px solid #eaeaea;
     border-radius: 6px;
     padding-left: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 @media screen and (max-width: 1700px) {
@@ -2259,3 +2265,4 @@ b{
         top: 7px;
     }
 }
+
