@@ -950,7 +950,7 @@ button:focus {
     font-family: "OpenSas Regular";
     font-size: 14px;
     color: #36be99;
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     align-items: baseline;
 }
