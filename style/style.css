@@ -2193,15 +2193,30 @@ b{
     border: 1px solid #eaeaea;
     border-radius: 6px;
     padding-left: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
 }
 
 @media screen and (max-width: 1700px) {
     .timepicker{
         max-width: 100%;
     }
+}
+
+.gj-modal > div{
+    position: relative !important;
+    top: 7% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+
+.gj-picker.timepicker [role=header] {
+    font-size: 58px;
+    padding: 20px 0;
+    line-height: 58px;
+    display: flex;
+    align-items: baseline;
+    user-select: none;
+    justify-content: center;
+    background-color: #36ba96;
 }
 
 .gj-picker.timepicker [role=header] {
