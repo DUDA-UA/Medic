@@ -2170,7 +2170,7 @@ b{
 
 #datepicker{
     width: 100%;
-    padding: 8px 10px 8px 20px;
+    padding: 7px 10px 6px 20px;
     background-color: #fbfbfb;
     border: none;
     outline: none;
@@ -2286,3 +2286,6 @@ b{
     }
 }
 
+.gj-timepicker-md {
+    width: 100%;
+}
